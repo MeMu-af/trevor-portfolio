@@ -1,5 +1,49 @@
 .title {
+    width: 400px;
+    height: 1lh;
     font-style: italic;
-    color: darkgoldenrod;
+    color: gold;
     background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+h1:hover {
+    background-color: brown;
+    border: dashed;
+    border-color: red;
+    width: 400px;
+    color: gold;
+}
+
+.boulder {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bamf {
+    position: absolute;
+    border: dashed;
+    height: 1lh;
+    width: 400px;
+    height: 20lh;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.nth :nth-child(even) {
+    border: 2px dashed blue;
+  }
+
+.nth :nth-child(odd) {
+    border: 2px dashed aqua;
 }
